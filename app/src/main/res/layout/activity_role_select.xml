@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your role"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnMusician"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Musician"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnAcademy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Academy"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Music Company"/>
+
+</LinearLayout>
+
